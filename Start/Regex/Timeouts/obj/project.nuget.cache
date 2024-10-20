@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "Fmw+pYOcrro=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\HP\\Documents\\ApplicationPorgram\\Start\\Regex\\Timeouts\\RegexTimeouts.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.NETCore.App.Ref"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.NETCore.App.Host.win-x64"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.WindowsDesktop.App.Ref"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.AspNetCore.App.Ref"
+    }
+  ]
+}

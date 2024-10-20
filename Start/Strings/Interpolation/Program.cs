@@ -11,10 +11,15 @@ string c = "CSharp";
 Console.WriteLine("The values are {0}, {1} and {2}", a, b, c);
 
 // TODO: Using string interpolation, the code is much easier to read
-
+// With string interpolation, you directly insert variables into the string using $
+// It's more readable and you don't need to match placeholders with variable positions
+Console.WriteLine($"The values are {a}, {b}, and {c}");
 
 // TODO: Interpolated strings can contain expressions as well
-
+// You can also include expressions directly in the interpolated string
+Console.WriteLine($"The sum of a and b is {a + b}");
 
 // TODO: Complex objects can be embedded in strings this way as well
-
+// You can also embed object properties, methods, or even complex calculations
+DateTime now = DateTime.Now;
+Console.WriteLine($"Today's date is {now.ToLongDateString()} and the time is {now.ToShortTimeString()}");
