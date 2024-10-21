@@ -1,0 +1,6 @@
+Summary of Office Files in Directory:
+Excel Files: 4, Total Size: 72 KB
+Word Files: 5, Total Size: 1 MB
+PowerPoint Files: 3, Total Size: 1 MB
+Total Office Files: 12
+Total Size of Office Files: 2 MB

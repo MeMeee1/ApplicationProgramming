@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Documents\\ApplicationPorgram\\Start\\files\\challenge\\challenge.csproj": {}
+    "C:\\Users\\HP\\Documents\\ApplicationPorgram\\start\\files\\challenge\\challenge.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Documents\\ApplicationPorgram\\Start\\files\\challenge\\challenge.csproj": {
+    "C:\\Users\\HP\\Documents\\ApplicationPorgram\\start\\files\\challenge\\challenge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Documents\\ApplicationPorgram\\Start\\files\\challenge\\challenge.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Documents\\ApplicationPorgram\\start\\files\\challenge\\challenge.csproj",
         "projectName": "challenge",
-        "projectPath": "C:\\Users\\HP\\Documents\\ApplicationPorgram\\Start\\files\\challenge\\challenge.csproj",
+        "projectPath": "C:\\Users\\HP\\Documents\\ApplicationPorgram\\start\\files\\challenge\\challenge.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Documents\\ApplicationPorgram\\Start\\files\\challenge\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Documents\\ApplicationPorgram\\start\\files\\challenge\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
