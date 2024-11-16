@@ -1,0 +1,6 @@
+@MissionControlAPI_HostAddress = http://localhost:5225
+
+GET {{MissionControlAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

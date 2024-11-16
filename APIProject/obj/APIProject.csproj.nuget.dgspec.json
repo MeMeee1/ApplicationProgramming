@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\source\\repos\\APIProject\\APIProject.csproj": {}
+    "C:\\Users\\HP\\Documents\\ApplicationPorgram\\APIProject\\APIProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\source\\repos\\APIProject\\APIProject.csproj": {
+    "C:\\Users\\HP\\Documents\\ApplicationPorgram\\APIProject\\APIProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\APIProject\\APIProject.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Documents\\ApplicationPorgram\\APIProject\\APIProject.csproj",
         "projectName": "APIProject",
-        "projectPath": "C:\\Users\\HP\\source\\repos\\APIProject\\APIProject.csproj",
+        "projectPath": "C:\\Users\\HP\\Documents\\ApplicationPorgram\\APIProject\\APIProject.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\source\\repos\\APIProject\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Documents\\ApplicationPorgram\\APIProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

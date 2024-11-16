@@ -1,16 +1,26 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using APIProject.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace APIProject.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProductController : ControllerBase
+    public class ProductsController : ControllerBase
     {
-        [HttpGet]
-        public string GetProducts()
+        private readonly ShopContext _context;
+
+        public ProductsController(ShopContext context)
         {
-            return "OK";
+            _context = context;
+
+            _context.Database.EnsureCreated();
+        }
+
+        [HttpGet]
+        public IEnumerable<Product> GetAllProducts()
+        {
+            return _context.Products.ToArray();
         }
     }
 }

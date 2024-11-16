@@ -1,25 +1,30 @@
-
-using APIProject.Models;
 using Microsoft.EntityFrameworkCore;
-
-namespace APIProject
+using MissionControlAPI.Models;
+using AutoMapper;
+using MissionControlAPI.Models.DTO;
+namespace MissionControlAPI
 {
     public class Program
     {
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            
+
+            // 
+            builder.Services.AddAutoMapper(typeof(MappingProfile));
+
+         
 
             // Add services to the container.
 
             builder.Services.AddControllers();
+            builder.Services.AddDbContext<SpaceContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-            builder.Services.AddDbContext<ShopContext>(options =>
-            {
-                options.UseInMemoryDatabase("Shop");
-            });
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
